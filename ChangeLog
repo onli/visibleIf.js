@@ -1,0 +1,7 @@
+ * Removed EventHelper.js, use jQuery instead
+ * Removed visibleIf.css, use javascript instead
+    -> now it works without adding display: block, which killed layouts relying on e.g. display: cell
+ * fix regex to not choke on input-elements with [] in them
+ * support input type number
+ * work properly with select-boxes
+ * dont disable input-elements with no connection to visibleIf
