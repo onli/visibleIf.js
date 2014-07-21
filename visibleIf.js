@@ -460,6 +460,9 @@ var visibleIf = new function(){
                                 
                                 // do nothing to avoid a security error.
                                 break;
+                            case "submit":
+                                // do nothing to the value attribute; it is the label of the submit button
+                                break;                        
                             case "hidden":
                                 // don't do anything
                                 break;
